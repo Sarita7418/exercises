@@ -1,0 +1,22 @@
+.card{
+    display: flex;
+    background-color: rgba(41, 41, 46, 1);
+    color: var(--Gray);
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0 10px 10px 10px;
+    border-radius: 10px;
+    
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+}
+
+.text h2{
+    color: var(--White);
+    font-weight: 700;
+    font-size: 18px;
+}
